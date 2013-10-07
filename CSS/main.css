@@ -4,7 +4,7 @@ body
 	color: #4C4C4C;
 	font-family: "PT Sans", Arial;
 	font-size: 16px;
-	margin: 0.5em;
+	margin: 0 auto;
 	padding: 0;
 }
 header h1
@@ -79,14 +79,8 @@ nav ul li a
 	background: white;
 	border-bottom: 3px solid #223C3F;
 	border-radius: 1em;
+	display: inline-block;	
 	margin: 1em;
-}
-.info_search
-{
-	position: relative;
-	top: 100px;
-	left: 100px;
-	float: right;
 }
 .repos
 {
