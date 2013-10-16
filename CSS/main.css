@@ -1,3 +1,9 @@
+a
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
 body
 {
 	background: #EFEFEF;
@@ -7,12 +13,11 @@ body
 	margin: 0 auto;
 	padding: 0;
 }
-header h1
+header hgroup h1
 {
 	font-size: 20px;
 	font-weight: normal;
-	padding: 1em 0 0 1em;
-	width: 60%;
+	margin-left: 2em
 }
 header,footer
 {
@@ -20,15 +25,19 @@ header,footer
 	color: white;
 	text-align: left
 }
-figure, h1
+hgroup
+{
+	display: inline-block;
+}
+hgroup figure, h1
 {
 	display: inline-block;
 	vertical-align: top;
 }
-figure img
+hgroup figure img
 {
-	width: 80px;
-	margin: 1em;
+	width: 60px;
+	margin: 0 1em 0 1em;
 }
 footer
 {
@@ -46,12 +55,12 @@ nav ul
 	list-style: none;
 	margin: 0;
 	padding: 0;
-}
+	}
 nav ul li
 {
 	display: inline-block;
 	padding: 0 0 0 1.2em;
-	vertical-align: top; 
+	vertical-align: top;
 }
 nav ul li a
 {
@@ -65,25 +74,37 @@ nav ul li a
 	width: 100px;
 	display: block;
 }
-#avatar, h3
+#avatar, h3,
 {
 	display: inline-block;
 }
 #contenido
 {
+	display: inline-block;
 	margin: 1em;
-	width: 
 }
 .imprs
 {
 	background: white;
 	border-bottom: 3px solid #223C3F;
 	border-radius: 1em;
-	display: inline-block;	
 	margin: 1em;
+	padding: 0.5em;
 }
 .repos
 {
 	color: #434343;
 	text-decoration: none;
+}
+.imprs figure, .imprs h3
+{
+	display: inline-block;
+}
+.imprs h4, .imprs a 
+{
+	display: inline-block;
+}
+#todo
+{
+	min-height: 100px
 }
